@@ -1,0 +1,13 @@
+function setBackgoundColor('mySquare', 'orange'){
+
+	document.getElementById("mySquare").style.backgroundColor = "green";
+	var elem = document.getElementById("orange");
+
+if(elem.style.backgroundColor===red){
+	alert("success");
+}
+else{
+alert("failure");
+	
+}
+}

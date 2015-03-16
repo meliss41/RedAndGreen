@@ -1,5 +1,5 @@
 
-function red (){
+function changeColor (){
 	document.getElementById("green").style.backgroundColor = "red";
 	var elem = document.getElementById("button");
 	if(elem.innerHTML === "Make Red"){
