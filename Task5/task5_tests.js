@@ -1,20 +1,25 @@
+setBackgoundColor('mySquare','green');
 
-function setBackgoundColor(mySquare, color)
+if(document.getElementById("mySquare").style.backgroundColor === "green")
 {
-document.getElementById("mySquare").style.backgroundColor= color;
-};
-
-
-setBackgoundColor('mySquare', 'red');
-
-var col = getComputedStyle(document.getElementById("mySquare")).backgroundColor;
-if(col === "rgb(0, 128, 0)")
-{
-	alert("success");
+	window.alert("success");
 }
+
 else
 {
+		document.getElementById("mySquare").style.backgroundColor === "red";
 	alert("failure");
-	//document.getElementById("mySquare").style.backgroundColor = "red";
 }
 
+
+
+setBackgoundColor('mySquare','red');
+if(document.getElementById("mySquare").style.backgroundColor === "red"){
+	window.alert("success");
+}
+
+else
+{
+		document.getElementById("mySquare").style.backgroundColor === "green";
+	alert("failure");
+}
